@@ -26,8 +26,8 @@ function myFavouriteFunc(a) {
 }
 myFavouriteFunc('World')
 
-console.log(a) // Uncaught ReferenceError: a is not defined
-console.log(b) // не выполнится
+// console.log(a) // Uncaught ReferenceError: a is not defined
+// console.log(b) // не выполнится
 
 /// Блочная область видимости — переменные (объявленные с помощью ключевых слов «let» и «const») внутри блока ({ }), доступны только внутри него.
 
