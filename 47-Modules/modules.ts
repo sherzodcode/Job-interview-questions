@@ -17,6 +17,10 @@ export function isNull(val){
     return val === null;
 }
 
+export const greeting = (name) => {
+    return console.log(`Hi ${name}`);
+}
+
 
 // // ES5 CommonJS - index.js
 // const helpers = require('./helpers.js')
